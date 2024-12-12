@@ -698,10 +698,9 @@
 
 #footer-down{
     display: flex;
-    flex-flow: column warp;
     margin-top: 30px;
     background-color: #edf4f6;
-    padding: 20px 0;
+    padding: 20px 20px;
 }
 
 
