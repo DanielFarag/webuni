@@ -305,6 +305,7 @@
     display: block;
     background-color: #d82a4e;
     width: 71%;
+    box-sizing: border-box;
 }
 
 #content-container #search-course h1{
@@ -519,7 +520,7 @@
     padding: 45px 58px;
 }
 #signup-form form input[type="text"]{
-    width: 96%;
+    width: 100%;
     font-size: 14px;
     margin: 10px 0;
     display: block;
@@ -527,6 +528,7 @@
     border: unset;
     padding: 20px 10px;
     background-color: #edf4f6;   
+    box-sizing: border-box;
 }
 
 #signup-image{
@@ -803,6 +805,7 @@
     #search-form {
         flex-flow: column;
         row-gap: 30px;
+        box-sizing: border-box;
     }
 
     #signup-image{
